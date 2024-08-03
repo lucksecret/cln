@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        h1{
+            text-align: center;
+            font-size: 100px;
+            margin-top: 100px;
+        }
+        header{
+            padding: 10px ;
+            height: 60px;
+        }
+        nav{
+            float: right;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header nav a{
+          margin: 0px 5px;
+          text-decoration: none;
+          color: black;
+        }
+        form{
+            display: flex;
+            align-items: center;
+        }
+        header nav a:hover{
+          margin: 0px 5px;
+          text-decoration: underline;
+          color: black;
+        }
+        header nav a.login-btn{
+            display: inline-block;
+            height: 40px;
+            width: 85px;
+            background-color: blue;
+            border-radius: 20px;
+            text-align: center;
+            color: white;
+            line-height: 40px;
+        }
+        section.content h1{
+            text-align: center;
+            font-size: 100px;
+            margin-top: 100px;
+        }
+        section form{
+            margin: 50px auto;
+            width:50%;
+        }
+        section form input[type=text]{
+            width: 100%;
+            height: 50px;
+            border-radius: 16px;
+            padding:  5px 15px;
+            font-size: 25px;
+            outline: none;
+            
+        }
+        section{
+            min-height: calc(100vh - 200px );
+        }
+        section h1 span.g{
+            color: violet;
+        }
+        #send-button {
+        padding: 10px 20px;
+        background-color: #325596;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        width: 20%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+      }
+      footer div{
+        height: 45px;
+        background-color: rgb(214, 214, 214);
+        color: white;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">gmail</a>
+            <a href="#">image</a>
+            <a href="#">(❁´◡`❁)</a>
+            <a href="#" class="login-btn" >login</a>
+        </nav>
+        <div style="clear: right;"></div>
+    </header>
+    <section class="content">
+        <h1><span class="g">G</span><span class="o">o</span><span class="otwo">o</span><span class="gtwo">g</span><span class="l">l</span><span class="e">e</span></h1>
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" name="q" id="" placeholder="type here">
+        </form>
+        <button id="send-button">send</button>
+    </section>
+    <footer>
+        <div></div>
+    </footer>
+</body>
+</html>
